@@ -36,6 +36,10 @@ app.post("/Calculator",(request,response)=>{
 
 })
 
+app.post("/sendemail",(request,response)=>{
+    
+})
+
 app.listen("5000",()=>{
     console.log("Server running")
 })
